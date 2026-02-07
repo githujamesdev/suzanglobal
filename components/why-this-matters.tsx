@@ -19,7 +19,7 @@ export function WhyThisMatters() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 mt-16">
+        {/* <div className="grid md:grid-cols-3 gap-8 mt-16">
           {[
             {
               icon: AlertCircle,
@@ -46,7 +46,7 @@ export function WhyThisMatters() {
               <p className="text-muted-foreground">{item.description}</p>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   )

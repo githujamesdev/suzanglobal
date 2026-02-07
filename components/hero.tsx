@@ -14,12 +14,16 @@ export function Hero() {
               Marketing & AI Strategist
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
+            {/* <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
               Understand why people buy. <span className="text-primary">Then sell smarter.</span>
+            </h1> */}
+
+             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight text-balance">
+              The psychology of making sales online
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-              I offer Strategic Marketing & AI-Powered Systems To Help Business Owners Grow And Sell Online.
+              I Help Business Owners Launch, Grow & Sell Online Using Strategic Marketing & AI Powered Systems
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

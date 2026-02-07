@@ -20,7 +20,7 @@ export function About() {
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
                 {
-                  "Hey, I'm Suzanne, a marketing and AI consultant with proven experience helping businesses grow online and turn followers into paying customers."
+                  "I Help Business Owners Launch, Grow & Sell Online Using Marketing & AI Powered Systems"
                 }
               </p>
               <p>
