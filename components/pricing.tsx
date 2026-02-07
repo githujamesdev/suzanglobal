@@ -96,13 +96,23 @@ export function Pricing() {
             ))}
           </div>
 
-          <Button 
+          <Button  size="lg"  className="bg-emerald-600 text-white hover:bg-emerald-700 mb-8">
+              <a
+                href="https://calendly.com/qomafrica/30min"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Book Your Session Today
+              </a>
+            </Button>
+
+          {/* <Button 
             size="lg" 
             className="bg-emerald-600 text-white hover:bg-emerald-700 mb-8"
             onClick={() => setIsModalOpen(true)}
           >
             Book Your Session Today
-          </Button>
+          </Button> */}
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 text-slate-600">
             <a
@@ -114,7 +124,7 @@ export function Pricing() {
             </a>
             <a href="tel:+254759544952" className="flex items-center gap-2 hover:text-emerald-600 transition-colors">
               <Phone className="h-5 w-5" />
-              +254 759 544 952
+              +254 719 545 083
             </a>
           </div>
         </div>
