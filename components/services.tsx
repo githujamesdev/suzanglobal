@@ -8,8 +8,11 @@ export function Services() {
     {
       icon: Clock,
       title: "The Clarity Session",
-      subtitle: "2-Hour Virtual Strategy Intensive",
-      price: "KES 6,500",
+      subtitle: "2-Hour Virtual Strategy Intensive + 4 Weeks Support",
+      price: {
+          virtual: "KES 8,500",
+          physical: "KES 15,000",
+        },
       features: [
         "Deep audit of your brand, content, and current marketing systems",
         "Clarify your core offer, messaging, and ideal customer",
@@ -116,9 +119,24 @@ export function Services() {
                 <CardTitle className="text-foreground">{service.title}</CardTitle>
                 <CardDescription className="text-muted-foreground">{service.subtitle}</CardDescription>
                 <div className="pt-2">
-                  <span className="text-2xl font-bold text-primary">{service.price}</span>
-                  {service.commitment && <p className="text-xs text-muted-foreground mt-1">{service.commitment}</p>}
-                </div>
+  {typeof service.price === "object" ? (
+    <div className="flex flex-col gap-1">
+      <div className="flex items-center gap-2">
+        <span className="text-xs text-muted-foreground w-16">Virtual:</span>
+        <span className="text-2xl font-bold text-primary">{service.price.virtual}</span>
+      </div>
+      <div className="flex items-center gap-2">
+        <span className="text-xs text-muted-foreground w-16">Physical:</span>
+        <span className="text-2xl font-bold text-primary">{service.price.physical}</span>
+      </div>
+    </div>
+  ) : (
+    <span className="text-2xl font-bold text-primary">{service.price}</span>
+  )}
+  {service.commitment && (
+    <p className="text-xs text-muted-foreground mt-1">{service.commitment}</p>
+  )}
+</div>
               </CardHeader>
               <CardContent className="space-y-4">
                 <ul className="space-y-2">

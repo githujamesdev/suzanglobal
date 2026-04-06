@@ -17,7 +17,7 @@ export function Pricing() {
   const [submitStatus, setSubmitStatus] = useState("")
 
   const offers = [
-    { name: "Strategy Session", price: "KES 6,500" },
+    { name: "Strategy Session", price: "KES 8,500" },
     { name: "Premium Monthly Coaching", price: "KES 35,000", note: "(min. 3 months)" },
     { name: "Group Training", price: "KES 45,000" },
     { name: "Social Media Management", price: "KES 80,000" },
