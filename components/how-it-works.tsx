@@ -7,16 +7,17 @@ export function HowItWorks() {
       step: "Step 1",
       title: "Book a strategy session",
     },
-    {
-      icon: Search,
-      step: "Step 2",
-      title: "We audit, research, plan, and build your strategy",
-    },
-    {
+     {
       icon: Layers,
-      step: "Step 3",
+      step: "Step 2",
       title: "Choose a coaching, group, or social media management plan",
     },
+    {
+      icon: Search,
+      step: "Step 3",
+      title: "We audit, research, plan, and build your strategy",
+    },
+   
     {
       icon: TrendingUp,
       step: "Step 4",

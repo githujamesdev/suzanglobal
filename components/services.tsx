@@ -8,7 +8,7 @@ export function Services() {
     {
       icon: Clock,
       title: "The Clarity Session",
-      subtitle: "2-Hour Virtual Strategy Intensive + 4 Weeks Support",
+      subtitle: "2-Hour Virtual Strategy Intensive +  7 days Support",
       price: {
           virtual: "KES 8,500",
           physical: "KES 15,000",
